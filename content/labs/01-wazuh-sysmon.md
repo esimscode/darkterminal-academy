@@ -6,6 +6,8 @@ Follow the official quickstart: https://documentation.wazuh.com/current/quicksta
 ```bash
 curl -sO https://packages.wazuh.com/4.x/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
 ```
+On Ubuntu 26.04 the installer may refuse with an unsupported-OS warning; add `-i` to ignore the check (see the Lab 00 FAQ).
+
 Write down the admin password it prints. The dashboard is at `https://<wazuh-ip>`.
 
 ## 2. Install Sysmon on Windows
